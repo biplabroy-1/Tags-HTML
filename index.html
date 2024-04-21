@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brainware University</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<body class="">
+    <main class="min-h-screen bg-[#E0F1FD]">
+        <nav class="flex h-24 items-center justify-evenly bg-[#FBBB00]">
+            <a href="#" class="font-bold text-[#0060AB]">Home</a>
+            <a href="#table" class="font-bold text-[#0060AB]">Students</a>
+            <a href="#form" class="font-bold text-[#0060AB]">Class</a>
+        </nav>
+        <div class="flex p-4">
+            <div class="w-1/2">
+                <h1 class="text-4xl font-bold text-[#0060AB]">Hello Students</h1>
+                <div class="p-10 pl-2">
+                    <p><span class="font-bold text-[#055fa4]">Brainware University</span> , founded in 2016 in Kolkata,
+                        India, offers undergraduate, postgraduate, and doctoral programs in diverse fields like
+                        engineering, management, computer science, and biotechnology. It focuses on a blend of theory
+                        and practical skills, encourages research, and provides modern facilities for student
+                        development.</p>
+                </div>
+            </div>
+            <div class="flex w-1/2 flex-col gap-4">
+                <img class="rounded-md"
+                    src="https://content3.jdmagicbox.com/comp/kolkata/x5/033pxx33.xx33.170401161158.e2x5/catalogue/brainware-university-barasat-kolkata-colleges-for-mlt-mx5oldqtd8.jpg"
+                    alt="Img Not Found" />
+                <video class="rounded-md" width="800" autoplay loop muted>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div class="my-10 px-4" id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Subject/Course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bikram Dholey</td>
+                        <td>Teacher</td>
+                        <td>Mathematics</td>
+                    </tr>
+                    <tr>
+                        <td>Khosik Dey</td>
+                        <td>Teacher</td>
+                        <td>Data Structure and Algorithm</td>
+                    </tr>
+                    <tr>
+                        <td>Gouranga Bag</td>
+                        <td>Teacher</td>
+                        <td>Computer Architecture</td>
+                    </tr>
+                    <tr>
+                        <td>Anuma Thakuri</td>
+                        <td>Teacher</td>
+                        <td>Html & CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Rubel Mondal</td>
+                        <td>Student</td>
+                        <td>BCA</td>
+                    </tr>
+                    <tr>
+                        <td>Md Masudur Rahaman Molla</td>
+                        <td>Student</td>
+                        <td>BCA</td>
+                    </tr>
+                    <tr>
+                        <td>Chaitali Mondal</td>
+                        <td>Student</td>
+                        <td>BCA</td>
+                    </tr>
+                    <tr>
+                        <td>Ritwik Mondal</td>
+                        <td>Student</td>
+                        <td>BCA</td>
+                    </tr>
+                    <tr>
+                        <td>Sabnam Khatun</td>
+                        <td>Student</td>
+                        <td>BCA</td>
+                    </tr>
+                    <tr>
+                        <td>Kankana Adhikari</td>
+                        <td>Student</td>
+                        <td>BCA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="">
+            <div class="container mx-auto p-6">
+                <h2 class="mb-4 text-2xl font-bold">To-Do List:</h2>
+                <ol class="list-disc pl-8">
+                    <li class="relative mb-2">
+                        <input type="checkbox" class="absolute top-[5px] h-4 w-4" id="task1" />
+                        <label for="task1" class="ml-6">Buy groceries (Eggs, Milk, Bread, Fruits)</label>
+                    </li>
+                    <li class="relative mb-2">
+                        <input type="checkbox" class="absolute top-[5px] h-4 w-4" id="task2" />
+                        <label for="task2" class="ml-6">Pay bills (Electricity, Internet, Phone)</label>
+                    </li>
+                    <li class="relative mb-2">
+                        <input type="checkbox" class="absolute top-[5px] h-4 w-4" id="task3" />
+                        <label for="task3" class="ml-6">Clean the house (Living room, Kitchen, Bathroom)</label>
+                    </li>
+                    <li class="relative mb-2">
+                        <input type="checkbox" class="absolute top-[5px] h-4 w-4" id="task4" />
+                        <label for="task4" class="ml-6">Call mom (Discuss weekend plans)</label>
+                    </li>
+                </ol>
+
+                <h2 class="mb-4 mt-8 text-2xl font-bold">Step-by-Step Guide:</h2>
+                <ol class="list-decimal pl-6">
+                    <li class="mb-2">
+                        Prepare the ingredients
+                        <ul class="list-disc pl-6">
+                            <li>Flour</li>
+                            <li>Sugar</li>
+                            <li>Eggs</li>
+                            <li>Baking powder</li>
+                            <li>Butter</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">Preheat the oven to 350°F</li>
+                    <li class="mb-2">Mix the ingredients in a bowl</li>
+                    <li class="mb-2">Pour the batter into a greased baking pan</li>
+                    <li class="mb-2">Bake for 30 minutes or until golden brown</li>
+                    <li class="mb-2">Let it cool down for 10 minutes</li>
+                    <li class="mb-2">Serve and enjoy!</li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="form">
+            <form action="" method="post" class="mx-auto mt-12 max-w-md rounded bg-white p-8 shadow-md">
+                <fieldset>
+                    <legend class="mb-4 text-lg font-semibold">Form Legend</legend>
+                    <div class="mb-4">
+                        <label for="username" class="mb-1 block font-medium">Username:</label>
+                        <input type="text" id="username" name="username" required
+                            class="w-full rounded-md border-b-2 p-2 shadow-sm focus:outline-none" />
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="mb-1 block font-medium">Password:</label>
+                        <input type="password" id="password" name="password" required
+                            class="w-full rounded-md border-b-2 p-2 shadow-sm focus:outline-none" />
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="mb-1 block font-medium">Email:</label>
+                        <input type="email" id="email" name="email" required
+                            class="w-full rounded-md border-b-2 p-2 shadow-sm focus:outline-none" />
+                    </div>
+                    <div class="my-4 flex justify-evenly">
+                        <div class="mb-4">
+                            <label class="mb-1 block font-medium">Gender:</label>
+                            <div>
+                                <input type="radio" id="male" name="gender" value="male" class="mr-2" />
+                                <label for="male" class="font-medium">Male</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female" class="mr-2" />
+                                <label for="female" class="font-medium">Female</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="other" name="gender" value="other" class="mr-2" />
+                                <label for="other" class="font-medium">Other</label>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="mb-1 block font-medium">Subjects:</label>
+                            <div>
+                                <input type="checkbox" id="math" name="subjects" value="math" class="mr-2" />
+                                <label for="math" class="font-medium">Mathematics</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="science" name="subjects" value="science" class="mr-2" />
+                                <label for="science" class="font-medium">Science</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="english" name="subjects" value="english" class="mr-2" />
+                                <label for="english" class="font-medium">English</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <input type="submit" id="submit" name="submit" value="Submit"
+                            class="cursor-pointer rounded-md bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-600" />
+                        <input type="reset" id="reset" name="reset" value="Reset"
+                            class="ml-2 cursor-pointer rounded-md bg-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-400" />
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
